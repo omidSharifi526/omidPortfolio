@@ -25,12 +25,14 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
-      <div className="mx-2 flex-1 px-2">WellCome to My Portfolio :)</div>
+      {/* <div className="mx-2 flex-1 px-2">WellCome to My Portfolio :)</div> */}
       <div className="hidden flex-none lg:block">
         <ul className="menu menu-horizontal">
           {/* Navbar menu content here */}
-          <li><a>MySkills</a></li>
-          <li><a>AboutMe</a></li>
+          <li><a>About</a></li>
+          <li><a>Experience</a></li>
+          <li><a>Projects</a></li>
+          <li><a>Contact</a></li>
         </ul>
       </div>
     </div>
